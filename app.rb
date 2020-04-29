@@ -27,6 +27,10 @@ class App < Sinatra::Base
     params[number2].to_i
     answer = ''
     
+    case params[:operation]
+    
+    end
+    
   end 
 
 end
