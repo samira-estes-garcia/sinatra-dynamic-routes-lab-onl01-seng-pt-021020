@@ -12,7 +12,7 @@ class App < Sinatra::Base
   
   get '/say/:number/:phrase' do
     times_said = ''
-    params[:number].to_i.each do
+    params[:number].to_i.times do
       times_said += params[:phrase]
     end
     times_said
