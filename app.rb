@@ -28,7 +28,8 @@ class App < Sinatra::Base
     answer = ''
     
     case params[:operation]
-    when 
+    when 'add'
+      
     end
     
   end 
